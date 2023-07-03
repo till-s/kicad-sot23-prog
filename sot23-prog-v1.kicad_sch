@@ -4,6 +4,11 @@
 
   (paper "A4")
 
+  (title_block
+    (company "by Till Straumann")
+    (comment 1 "License: public domain")
+  )
+
   (lib_symbols
     (symbol "Connector_Generic:Conn_02x03_Counter_Clockwise" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 1.27 5.08 0)
@@ -717,6 +722,11 @@
     (at 103.505 104.14 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 05c76d95-5950-4cb5-9fc8-3dabea6d0537)
+  )
+  (text "Ribbon cable connects to the\nAzoteq CT210 programmer."
+    (at 24.13 107.95 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 9ca88700-3259-4aab-a4e3-7351d1c1fce0)
   )
 
   (symbol (lib_id "Connector_Generic:Conn_02x03_Counter_Clockwise") (at 137.16 85.09 0) (unit 1)
